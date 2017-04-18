@@ -1,0 +1,121 @@
+/* ---------- Logo ---------- */
+.custom-logo img {
+	padding-right: 63px;
+	margin-bottom: 25px;
+	/*border-right: 1px solid #333;*/
+}
+
+@media (max-width: 979px) {
+	.aui #heading .site-title img {
+	    width: 150px;
+	    margin-bottom: 10px;
+	}
+}
+/* ---------- Header ---------- */
+/* backgrou8nd-color #f5f3ee */ 
+
+/* ---------- Navigation ---------- */
+.aui #navigation .navbar-inner {
+    /*background: #006ebf; stockholm.se*/
+	background: #c40064;
+    border-width: 0;
+    min-height: 49px;
+}
+.aui #navigation .nav li {
+    line-height: 40px;
+    font-size: medium;
+}
+
+.aui #navigation .nav li.active>a {
+    /*background-color: #00518c; stockholm.se*/
+	background-color: #fedeed;
+	color: #c40064;
+    background-image:none;
+}
+
+.aui #navigation .nav li.hover>a {
+    /*background-color: #005fa6; stockholm.se*/
+	background-color: #fedeed;
+	color: #c40064;
+    background-image:none;
+}
+
+.aui .dockbar-split .dockbar .navbar-inner .nav>li>a {
+    line-height: 32px;
+}
+
+.aui #footer {
+    border-top: 5px solid #c40064;
+}
+
+.aui body {
+    font-family: "Stockholm Type","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.aui .portlet-borderless-bar .portlet-options .dropdown-toggle,.portlet-borderless-bar .portlet-options.open .dropdown-toggle {
+    background-image: url(/stocket-theme/images/portlet/options_borderless.png)
+}
+
+.aui .portlet-borderless-bar .portlet-close a {
+    background-image: url(/stocket-theme/images/portlet/close_borderless.png)
+}
+
+.aui .portlet-borderless-bar .portlet-options li.lfr-trigger strong a {
+    background-image: url(/stocket-theme/images/portlet/options_borderless.png)
+}
+.aui .portlet-draggable .portlet-title-default {
+    background: #333 url(/stocket-theme/images/portlet/draggable_borderless.png) no-repeat 0 50%;
+}
+.aui .lfr-message .lfr-message-close {
+    background-image: url(/stocket-theme/images/portlet/close_borderless.png);
+}
+
+.aui .portlet-borderless-bar {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	
+}
+
+.aui input, .aui button, .aui select, .aui textarea {
+    font-family: "Stockholm Type","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.nav a, .site-name {
+    font-weight: 600;
+}
+
+.lfr-nav-item span {
+	font-size: 16px;
+}
+
+.subscribe, .comments, .taglib-social-bookmarks, .taglib-ratings, .stats, .taglib-flags, .taglib-rss, .entry-navigation, .entry-author, .entry-categories, .entry-tags {
+	display: none;
+}
+#blogsCommentsPanelContainer {
+	display: none;
+}
+
+
+.dockbar-user-notifications {
+	display: none !important;
+}
+
+.user-avatar .icon-caret-down {
+	display: none !important;
+}
+
+.user-avatar .dropdown-menu {
+	display: none !important;
+}
+
+.user-avatar-link .icon-caret-down {
+	display: none !important;
+}
+
+.btn-navbar .icon-pencil {
+	display: none !important;
+}
+
+.slides {
+	margin : 0 !important;
+}
+

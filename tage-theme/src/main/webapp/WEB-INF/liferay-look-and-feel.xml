@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE look-and-feel PUBLIC "-//Liferay//DTD Look and Feel 6.2.0//EN" "http://www.liferay.com/dtd/liferay-look-and-feel_6_2_0.dtd">
+
+<look-and-feel>
+	<compatibility>
+		<version>6.2.1+</version>
+	</compatibility>
+	<theme id="stocket" name="stocket-theme">
+		<template-extension>vm</template-extension>
+		<settings>
+			<setting configurable="true" key="bullet-style" options="dots,arrows" type="select" value="dots" />
+			<setting configurable="true" key="portlet-setup-show-borders-default" type="checkbox" value="false" />
+			<setting configurable="true" key="show-site-name-supported" type="checkbox" value="true" />
+			<setting configurable="true" key="show-site-name-default" type="checkbox" value="true" />
+			<setting configurable="true" key="show-page-name" type="checkbox" value="false" />
+		</settings> 
+	</theme>
+</look-and-feel>

@@ -1,0 +1,212 @@
+.stocket {
+	max-width: 1280px;
+	margin: 0 auto; 
+}
+
+@media (min-width: 1280px){
+	.stocket {
+		/*margin-left: 100px;
+		margin-right: 100px;*/
+		margin-top: 10px;		
+	}
+	#heading {
+		max-width: 1280px;
+		margin: 0 auto; 
+		margin-top: 0;			
+	}
+	.aui .nav-collapse.collapse {
+    max-width: 1280px;
+    margin: 0 auto;
+	}
+}
+
+.stocket .button {
+	color: #000000;
+}
+
+.stocket h1 {
+	font-size: 35px;
+}
+
+@media (max-width: 979px) {
+	.stocket h1 {
+		font-size: 26px;
+	}
+}
+
+.stocket h2 {
+	font-size: 22px;
+	line-height: 30px;
+}
+
+.stocket h3 {
+	font-size: 16px;
+}
+.stocket .flex-prev {
+	padding-top: 5px
+}
+.stocket .flex-next {
+	padding-top: 5px
+}
+
+.stocket .medium-box {
+	padding: 10px;
+	cursor: pointer;
+}
+
+.stocket .medium-box p{
+	font-size: 16px;
+}
+
+.stocket .medium-box a{
+    text-decoration: none;
+}
+
+.stocket .medium-box li{
+    line-height: 22px;
+    font-size: 16px;
+}
+
+
+.stocket .large-box {
+	padding: 20px;
+}
+
+.stocket .dark-orange-box, .dark-orange-box a, .dark-orange-box a:hover {
+	background: #dd4a2c;
+	color: #ffffff;
+}
+
+.stocket .dark-pink-box, .dark-pink-box a, .dark-pink-box a:hover  {
+	background: #c40064;
+	color: #ffffff;
+}
+
+.stocket .light-orange-box, .light-orange-box a, .light-orange-box a:hover {
+	background: #ffd7d2;
+	color: #dd4a2c;
+}
+
+.stocket .light-pink-box, .light-pink-box a, .light-pink-box a:hover {
+	background: #fedeed;
+	color: #c40064;
+}
+
+.stocket .white-box, .white-box a, .white-box a:hover {
+	background: #ffffff;
+	color: #c40064;
+}
+
+
+.stocket .content-header .button {
+	background: #ffd7d2;
+	color: #dd4a2c;
+	border: none;
+	border-radius: 5px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.stocket .content-header .primary-button {
+	background: #dd4a2c;
+	color: #ffffff;
+	border: none;
+	border-radius: 5px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.stocket .form-general {
+	background : #f5f3ee;
+}
+.stocket .info-box {
+	/*background : #f5f3ee;*/
+	background : #d6edfc;
+} 
+
+.stocket .info-message {
+    background: #f1e6fc;
+}
+
+.stocket .confirmation-message {
+    background: #d5f7f4;
+}
+
+.stocket .error-message {
+    background: #fedeed;
+}
+
+@media (min-width: 1280px){
+	.stocket .large-box p{
+		font-size: 22px;
+	    line-height: 28px;
+	}
+	
+	.stocket .large-box li{
+	    font-size: 22px;
+	}
+	.stocket .medium-box {
+		min-height: 189px;
+	}
+	.stocket .large-box {
+		min-height: 409px;
+	}
+	.stocket .extend-vertically {
+   	 	height:auto;
+   	 
+  	}
+	.stocket .slider-box {
+		height: 208px;
+	}
+	.stocket .slider-box .slider-image {
+		max-height: 200px;
+		height: auto;
+		max-width: 100%;
+		width: auto;
+		margin-left: auto;
+		margin-right: auto;
+	}	
+}
+@media (min-width: 700px) and (max-width: 1280px){
+	.stocket .large-box p{
+		font-size: 20px;
+	}
+	
+	.stocket .large-box li{
+	    font-size: 20px;
+	}
+	.stocket .medium-box {
+		min-height: 15.00vw;
+	}
+	.stocket .large-box {
+		min-height: 27.70vw;
+	}
+	.stocket .slider-box {
+		height: 15.00vw;
+	}
+	.stocket .slider-box .slider-image {
+		max-height: 15.00vw;
+		height: auto;
+		max-width: 100%;
+		width: auto;
+		margin-left: auto;
+		margin-right: auto;
+	}	
+}
+
+@media (max-width: 700px){
+	.stocket .large-box p{
+		font-size: 18px;
+	}
+	
+	.stocket .large-box li{
+	    font-size: 18px;
+	}
+}
+@media (min-width: 769px) {
+	#mobile-request-link-area {
+		display: none;
+	}
+} 
+
+
