@@ -1,0 +1,65 @@
+/* For customization*/
+
+.tageweb .dark-orange-box, .dark-orange-box a, .dark-orange-box a:hover {
+	background: #dd4a2c;
+	color: #ffffff;
+}
+
+.tageweb .dark-pink-box, .dark-pink-box a, .dark-pink-box a:hover  {
+	background: #c40064;
+	color: #ffffff;
+}
+
+.tageweb .light-orange-box, .light-orange-box a, .light-orange-box a:hover {
+	background: #ffd7d2;
+	color: #dd4a2c;
+}
+
+.tageweb .light-pink-box, .light-pink-box a, .light-pink-box a:hover {
+	background: #fedeed;
+	color: #c40064;
+}
+
+.tageweb .white-box, .white-box a, .white-box a:hover {
+	background: #ffffff;
+	color: #c40064;
+}
+
+
+.tageweb .content-header .button {
+	background: #ffd7d2;
+	color: #dd4a2c;
+	border: none;
+	border-radius: 5px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.tageweb .content-header .primary-button {
+	background: #dd4a2c;
+	color: #ffffff;
+	border: none;
+	border-radius: 5px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.tageweb .form-general {
+	background : #f5f3ee;
+}
+.tageweb .info-box {
+	/*background : #f5f3ee;*/
+	background : #d6edfc;
+} 
+
+.tageweb .info-message {
+    background: #f1e6fc;
+}
+
+.tageweb .confirmation-message {
+    background: #d5f7f4;
+}
+
+.tageweb .error-message {
+    background: #fedeed;
+}
