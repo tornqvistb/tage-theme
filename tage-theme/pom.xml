@@ -3,10 +3,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>se.arctisys.liferay.plugins</groupId>
-	<artifactId>stocket-theme</artifactId>
+	<artifactId>tage-theme</artifactId>
 	<packaging>war</packaging>
-	<name>stocket-theme Theme</name>
-	<version>6.2.3</version>
+	<name>tage-theme Theme</name>
+	<version>1.0</version>
 	<build>
 		<plugins>
 			<plugin>
@@ -90,5 +90,7 @@
 	<properties>
 		<liferay.theme.parent>classic</liferay.theme.parent>
 		<liferay.theme.type>vm</liferay.theme.type>
+		<liferay.maven.plugin.version>6.2.4</liferay.maven.plugin.version>
+		<liferay.version>6.2.4</liferay.version>
 	</properties>
 </project>

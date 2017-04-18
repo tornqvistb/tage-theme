@@ -53,21 +53,21 @@
 }
 
 .aui .portlet-borderless-bar .portlet-options .dropdown-toggle,.portlet-borderless-bar .portlet-options.open .dropdown-toggle {
-    background-image: url(/stocket-theme/images/portlet/options_borderless.png)
+    background-image: url(/tage-theme/images/portlet/options_borderless.png)
 }
 
 .aui .portlet-borderless-bar .portlet-close a {
-    background-image: url(/stocket-theme/images/portlet/close_borderless.png)
+    background-image: url(/tage-theme/images/portlet/close_borderless.png)
 }
 
 .aui .portlet-borderless-bar .portlet-options li.lfr-trigger strong a {
-    background-image: url(/stocket-theme/images/portlet/options_borderless.png)
+    background-image: url(/tage-theme/images/portlet/options_borderless.png)
 }
 .aui .portlet-draggable .portlet-title-default {
-    background: #333 url(/stocket-theme/images/portlet/draggable_borderless.png) no-repeat 0 50%;
+    background: #333 url(/tage-theme/images/portlet/draggable_borderless.png) no-repeat 0 50%;
 }
 .aui .lfr-message .lfr-message-close {
-    background-image: url(/stocket-theme/images/portlet/close_borderless.png);
+    background-image: url(/tage-theme/images/portlet/close_borderless.png);
 }
 
 .aui .portlet-borderless-bar {
