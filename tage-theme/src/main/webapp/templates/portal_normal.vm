@@ -1,6 +1,6 @@
 <!-- BT -->
 <!DOCTYPE html>
-#set ($siteName = "TAGE")
+#set ($siteName = "TAGE Återbruk")
 
 #parse ($init)
 
@@ -17,7 +17,7 @@
 	<link rel="stylesheet" type="text/css" href="/tage-theme/css/flexslider.css">
 	<link rel="stylesheet" type="text/css" href="/tage-theme/css/liferay_override.css">
 	<link rel="stylesheet" type="text/css" href="/tage-theme/css/tageweb.css">
-	<link rel="stylesheet" type="text/css" href="/tage-theme/css/custom.css">
+	<link rel="stylesheet" type="text/css" href="/tage-theme/css/tage-custom.css">
 	<script src="/tage-theme/js/jquery-1.8.2.js"></script>
 	<script src="/tage-theme/js/jquery.flexslider-min.js"></script>
 	<script src="/tage-theme/js/init-js-functions.js"></script>

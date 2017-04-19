@@ -1,0 +1,128 @@
+/* For customization*/
+
+/* Text boxes */
+
+/* Sthlm */
+.tageweb .dark-orange-box, .dark-orange-box a, .dark-orange-box a:hover {
+	background: #dd4a2c;
+	color: #ffffff;
+}
+
+.tageweb .dark-pink-box, .dark-pink-box a, .dark-pink-box a:hover  {
+	background: #c40064;
+	color: #ffffff;
+}
+
+.tageweb .light-orange-box, .light-orange-box a, .light-orange-box a:hover {
+	background: #ffd7d2;
+	color: #dd4a2c;
+}
+
+.tageweb .light-pink-box, .light-pink-box a, .light-pink-box a:hover {
+	background: #fedeed;
+	color: #c40064;
+}
+
+.tageweb .white-box, .white-box a, .white-box a:hover {
+	background: #ffffff;
+	color: #c40064;
+}
+
+/* End Sthlm */
+
+/* Kungsbacka */
+
+.tageweb .orange-box, .orange-box a, .orange-box a:hover {
+	background: #e35025;
+	color: #ffffff;
+}
+
+.tageweb .pink-box, .pink-box a, .pink-box a:hover {
+	background: #d22f62;
+	color: #ffffff;
+}
+
+.tageweb .dark-blue-box, .dark-blue-box a, .dark-blue-box a:hover {
+	background: #006b87;
+	color: #ffffff;
+}
+
+.tageweb .light-blue-box, .light-blue-box a, .light-blue-box a:hover {
+	background: #ddf1f3;
+	color: #006b87;
+}
+
+/* End Kungsbacka */
+
+/*End text boxes*/
+
+.tageweb .content-header .button {
+	background: #ddf1f3;
+	color: #006b87;
+	border: none;
+	border-radius: 5px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.tageweb .content-header .primary-button {
+	background: #006b87;
+	color: #ffffff;
+	border: none;
+	border-radius: 5px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.tageweb .info-box {
+	/*background : #f5f3ee;*/
+	background : #ddf1f3;
+} 
+
+.tageweb .info-message {
+    background: #ddf1f3;
+}
+
+.tageweb .confirmation-message {
+    background: #ddf1f3;
+}
+
+.tageweb .error-message {
+    background: #d22f62;
+    color: #ffffff;
+}
+
+/* Liferay overrides */
+/* ---------- Navigation ---------- */
+.aui #navigation .navbar-inner {
+	background: #006b87;
+    border-width: 0;
+    min-height: 49px;
+}
+
+.aui #navigation .nav li.active>a {
+	background-color: #ddf1f3;
+	color: #006b87;
+    background-image:none;
+}
+
+.aui #navigation .nav li.hover>a {
+	background-color: #ddf1f3;
+	color: #006b87;
+    background-image:none;
+}
+
+.aui #footer {
+    border-top: 5px solid #006b87;
+}
+
+.aui body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+@media (max-width: 979px) {
+	.aui #heading .site-title img {
+	    width: 60px;
+	    margin-bottom: 10px;
+	}
+}
