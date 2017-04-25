@@ -57,18 +57,18 @@
 /*End text boxes*/
 
 .tageweb .content-header .button {
-	background: #ddf1f3;
-	color: #006b87;
-	border: none;
+	background: #f5f3ee;
+	color: #000;
+	border: 1px solid #dadada;
 	border-radius: 5px;
 	margin-left: 5px;
 	margin-top: 5px;
 }
 
 .tageweb .content-header .primary-button {
-	background: #006b87;
+	background: #e35025;
 	color: #ffffff;
-	border: none;
+	border: 1px solid #e35025;
 	border-radius: 5px;
 	margin-left: 5px;
 	margin-top: 5px;
