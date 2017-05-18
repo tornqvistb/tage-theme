@@ -99,6 +99,7 @@
 	display: none !important;
 }
 
+/* To be used when SSO
 .user-avatar .icon-caret-down {
 	display: none !important;
 }
@@ -110,7 +111,7 @@
 .user-avatar-link .icon-caret-down {
 	display: none !important;
 }
-
+*/
 .btn-navbar .icon-pencil {
 	display: none !important;
 }
