@@ -48,9 +48,15 @@
 }
 
 .tageweb .light-blue-box, .light-blue-box a, .light-blue-box a:hover {
-	background: #ddf1f3;
+	background: #aadbe2;
 	color: #006b87;
 }
+
+.tageweb .white-box, .white-box a, .white-box a:hover {
+	background: #ffffff;
+	color: #3f3f3f;
+}
+
 
 /* End Kungsbacka */
 
@@ -76,15 +82,15 @@
 
 .tageweb .info-box {
 	/*background : #f5f3ee;*/
-	background : #ddf1f3;
+	background : #aadbe2;
 } 
 
 .tageweb .info-message {
-    background: #ddf1f3;
+    background: #aadbe2;
 }
 
 .tageweb .confirmation-message {
-    background: #ddf1f3;
+    background: #aadbe2;
 }
 
 .tageweb .error-message {
@@ -101,13 +107,13 @@
 }
 
 .aui #navigation .nav li.active>a {
-	background-color: #ddf1f3;
+	background-color: #aadbe2;
 	color: #006b87;
     background-image:none;
 }
 
 .aui #navigation .nav li.hover>a {
-	background-color: #ddf1f3;
+	background-color: #aadbe2;
 	color: #006b87;
     background-image:none;
 }
