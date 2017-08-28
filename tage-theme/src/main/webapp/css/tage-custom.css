@@ -197,8 +197,15 @@
 .aui h1, .aui h2, .aui h3, .aui .lfr-nav-item {
 	font-family: "myriad-pro-bold",Helvetica,Arial,sans-serif;
 }
+
 @media (min-width: 980px) {
 	.aui .site-title {
 		font-size:60px;
+	}
+}
+@media (min-width: 980px) {
+	.tageweb h1 {
+	    font-size: 28px;
+	    line-height: 33px;
 	}
 }
