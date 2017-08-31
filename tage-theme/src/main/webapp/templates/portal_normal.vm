@@ -32,6 +32,7 @@ $theme.include($body_top_include)
 #dockbar()
 
 <div class="container-fluid" id="wrapper">
+	
 	<header id="banner" role="banner">
 		<div id="heading">
 			<h1 class="site-title">
@@ -52,9 +53,11 @@ $theme.include($body_top_include)
 		#if ($has_navigation || $is_signed_in)
 			#parse ("$full_templates_path/navigation.vm")
 		#end
-	</header>
-
+	</header>	
+	<span class="mobile-title">Återvinsten</span>	
 	<div id="content">
+	
+		
 		<!--<nav id="breadcrumbs">#breadcrumbs()</nav>-->
 
 		#if ($selectable)

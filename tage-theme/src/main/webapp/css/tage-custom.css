@@ -209,3 +209,26 @@
 	    line-height: 33px;
 	}
 }
+
+.aui .mobile-title {
+    font-family: "myriad-pro-bold",Helvetica,Arial,sans-serif;
+    font-size: 30px;
+    color: #3F3F3F;
+}
+@media (min-width: 980px) {
+	.aui .mobile-title {
+	    display: none;
+	}
+}
+
+@media (max-width: 979px) {
+	.aui .header-logo {
+	    display: none;	    
+	}
+	.aui .site-title {
+	    display: none;	    
+	}
+	.aui #navigation.open .navbar-inner {
+	    margin-bottom: 30px;
+	}
+}
