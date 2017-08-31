@@ -193,6 +193,8 @@
 }
 .aui .tageweb .large-box p, .aui .tageweb .large-box ul{
 	font-family: "Georgia",Helvetica,Arial,sans-serif;
+	font-size: 20px;
+	line-height: 25px;
 }
 .aui h1, .aui h2, .aui h3, .aui .lfr-nav-item {
 	font-family: "myriad-pro-bold",Helvetica,Arial,sans-serif;
