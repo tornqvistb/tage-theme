@@ -234,3 +234,6 @@
 	    margin-bottom: 30px;
 	}
 }
+#display-option-section {
+	display: none;
+}
