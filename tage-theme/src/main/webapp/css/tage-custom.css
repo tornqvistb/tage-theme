@@ -1,26 +1,27 @@
 /* Fonts */
 @font-face {
-    font-family: myriad-pro-bold;
-    src: url(../fonts/MyriadPro-Bold.otf);
+	font-family: myriad-pro-bold;
+	src: url(../fonts/MyriadPro-Bold.otf);
 }
-
 
 /* For customization*/
 
 /* Text boxes */
 
 /* Sthlm */
-.tageweb .dark-orange-box, .dark-orange-box a, .dark-orange-box a:hover {
+.tageweb .dark-orange-box, .dark-orange-box a, .dark-orange-box a:hover
+	{
 	background: #dd4a2c;
 	color: #ffffff;
 }
 
-.tageweb .dark-pink-box, .dark-pink-box a, .dark-pink-box a:hover  {
+.tageweb .dark-pink-box, .dark-pink-box a, .dark-pink-box a:hover {
 	background: #c40064;
 	color: #ffffff;
 }
 
-.tageweb .light-orange-box, .light-orange-box a, .light-orange-box a:hover {
+.tageweb .light-orange-box, .light-orange-box a, .light-orange-box a:hover
+	{
 	background: #ffd7d2;
 	color: #dd4a2c;
 }
@@ -38,7 +39,6 @@
 /* End Sthlm */
 
 /* Kungsbacka */
-
 .tageweb .orange-box, .orange-box a, .orange-box a:hover {
 	background: #e35025;
 	color: #ffffff;
@@ -64,11 +64,9 @@
 	color: #3f3f3f;
 }
 
-
 /* End Kungsbacka */
 
 /*End text boxes*/
-
 .tageweb .content-header .button {
 	background: #f5f3ee;
 	color: #000;
@@ -79,9 +77,9 @@
 }
 
 .tageweb .content-header .primary-button {
-	background: #e35025;
+	background: #9b2864;
 	color: #ffffff;
-	border: 1px solid #e35025;
+	border: 1px solid #9b2864;
 	border-radius: 5px;
 	margin-left: 5px;
 	margin-top: 5px;
@@ -89,54 +87,54 @@
 
 .tageweb .info-box {
 	/*background : #f5f3ee;*/
-	background : #d6edfc;
-} 
+	background: #d6edfc;
+}
 
 .tageweb .info-message {
-    background: #d6edfc;
+	background: #d6edfc;
 }
 
 .tageweb .confirmation-message {
-    background: #d6edfc;
+	background: #d6edfc;
 }
 
 .tageweb .error-message {
-    background: #d22f62;
-    color: #ffffff;
+	background: #d22f62;
+	color: #ffffff;
 }
 
 /* Liferay overrides */
 /* ---------- Navigation ---------- */
 .aui #navigation .navbar-inner {
-	background: #779322;
-    border-width: 0;
-    min-height: 49px;
+	background: #73be78;
+	border-width: 0;
+	min-height: 49px;
 }
 
 .aui #navigation .nav li.active>a {
-	background-color: #d3d53a;
+	background-color: #d0e6cc;
 	color: #3f3f3f;
-    background-image:none;
+	background-image: none;
 }
 
 .aui #navigation .nav li.hover>a {
-	background-color: #d3d53a;
+	background-color: #d0e6cc;
 	color: #3f3f3f;
-    background-image:none;
+	background-image: none;
 }
 
 .aui #footer {
-    border-top: 10px solid #c0b89f;
+	border-top: 10px solid #c0b89f;
 }
 
 .aui body {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-@media (max-width: 979px) {
+@media ( max-width : 979px) {
 	.aui #heading .site-title img {
-	    width: 60px;
-	    margin-bottom: 10px;
+		width: 60px;
+		margin-bottom: 10px;
 	}
 }
 
@@ -149,91 +147,126 @@
     position: fixed;
 }
 */
-/* KBA upper login bar, only non mobile*/ 
-
-
+/* KBA upper login bar, only non mobile*/
 .aui .dockbar-split.dockbar-ready .dockbar .navbar-inner {
-	background: #d3d53a;
-    width: 100%;
-    height: auto;
+	background: #23557d;
+	width: 100%;
+	height: auto;
 }
+
+.aui .dockbar-split .dockbar .navbar-inner .nav li.dropdown.open>.dropdown-toggle
+	{
+	background-color: #9b2864 !important;
+	background-image: none !important;
+}
+
+.aui .dockbar-split .dockbar .navbar-inner .nav li:hover {
+	background-color: #9b2864 !important;
+	background-image: none !important;
+}
+
+.aui .dockbar .nav li.dropdown .dropdown-menu, .aui .dockbar .nav li.dropdown .site-administration-menu
+	{
+	background: #9b2864 !important;
+}
+
+.user-avatar-link:hover {
+	background-color: #9b2864 !important;
+}
+
 .aui .nav-account-controls li {
-	background-color: #d3d53a!important;
-	background-image: none!important;
+	background-color: #23557d !important;
+	background-image: none !important;
 	color: #ffffff;
 }
-.header-logo{
-	float:right;
-	padding-bottom:20px;
+
+.aui .nav-account-controls .my-sites-menu li {
+	background: #9b2864 !important;
+	color: #ffffff;
 }
-.site-title{
+
+.header-logo {
+	float: right;
+	padding-bottom: 20px;
+}
+
+.site-title {
 	top: 68px;
 	position: relative;
-	
 }
+
 .site-navigation {
-	clear:both;
+	clear: both;
 }
 
 .aui #navigation .navbar-inner li a {
 	color: #3f3f3f;
 }
+
 .aui .dockbar-split .dockbar .navbar-inner .nav-account-controls {
-	border:none;
+	border: none;
 }
-.aui .dockbar-split .dockbar.navbar-static-top .collapse .nav-account-controls {
-	position:relative;
+
+.aui .dockbar-split .dockbar.navbar-static-top .collapse .nav-account-controls
+	{
+	position: relative;
 }
+
 #recycling {
-    background: url(../images/recycling.png) repeat-x scroll 0 transparent;
-    bottom: 0;
-    z-index: 200;
-    height: 170px;
-    padding-top: 50px;
+	background: url(../images/recycling.png) repeat-x scroll 0 transparent;
+	bottom: 0;
+	z-index: 200;
+	height: 170px;
+	padding-top: 50px;
 }
-.aui .tageweb .large-box p, .aui .tageweb .large-box ul{
-	font-family: "Georgia",Helvetica,Arial,sans-serif;
+
+.aui .tageweb .large-box p, .aui .tageweb .large-box ul {
+	font-family: "Georgia", Helvetica, Arial, sans-serif;
 	font-size: 20px;
 	line-height: 25px;
 }
+
 .aui h1, .aui h2, .aui h3, .aui .lfr-nav-item {
-	font-family: "myriad-pro-bold",Helvetica,Arial,sans-serif;
+	font-family: "myriad-pro-bold", Helvetica, Arial, sans-serif;
 }
 
-@media (min-width: 980px) {
+@media ( min-width : 980px) {
 	.aui .site-title {
-		font-size:60px;
+		font-size: 60px;
 	}
 }
-@media (min-width: 980px) {
+
+@media ( min-width : 980px) {
 	.tageweb h1 {
-	    font-size: 28px;
-	    line-height: 33px;
+		font-size: 28px;
+		line-height: 33px;
 	}
 }
 
 .aui .mobile-title {
-    font-family: "myriad-pro-bold",Helvetica,Arial,sans-serif;
-    font-size: 30px;
-    color: #3F3F3F;
+	font-family: "myriad-pro-bold", Helvetica, Arial, sans-serif;
+	font-size: 30px;
+	color: #3F3F3F;
 }
-@media (min-width: 980px) {
+
+@media ( min-width : 980px) {
 	.aui .mobile-title {
-	    display: none;
+		display: none;
 	}
 }
 
-@media (max-width: 979px) {
+@media ( max-width : 979px) {
 	.aui .header-logo {
-	    display: none;	    
+		display: none;
 	}
 	.aui .site-title {
-	    display: none;	    
+		display: none;
 	}
 	.aui #navigation.open .navbar-inner {
-	    margin-bottom: 30px;
+		margin-bottom: 30px;
 	}
 }
+
 #display-option-section {
 	display: none;
 }
